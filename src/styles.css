@@ -1,0 +1,264 @@
+body {
+    background-color: rgb(0, 145, 255);
+}
+
+#home {
+    margin: auto;
+    width: 1440px;
+    height: 2316px;
+    background-color: #FFF8F0;
+}
+
+#hero {
+    width: 1440px;
+    height: 600px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-dis {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#contact {
+    width: 520px;
+    height: 20px;
+    padding: 40px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro {
+    padding-top: 40px;
+    width: 520px;
+    height: 401px;
+    border-radius: 4px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#intro div {
+    padding: 10px;
+}
+
+#intro-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+#intro-job {
+    width: 520px;
+    height: 150px;
+    top: 128px;
+    left: 190px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #190D37;
+}
+
+#intro-dis {
+    width: 520px;
+    height: 128px;
+    top: 308px;
+    left: 190px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #55206D;
+}
+#intro-button {
+    width: 138px;
+    height: 44px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+}
+
+
+#about {
+    width: 1060px;
+    height: 534px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#jobs {
+    width: 1060px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.job {
+    width: 340px;
+    height: 291px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.job_name {
+    width: 300px;
+    height: 27px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.job_dis {
+    width: 300px;
+    height: 216px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #55206D;
+    ;
+}
+
+#projects {
+    width: 1060px;
+    height: 803px;
+    margin-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#my-projects {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: blue;
+    top: 0;
+    right: 515px;
+}
+
+#check-below {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    width: 700px;
+    height: 80px;
+
+}
+
+#projects-dis {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    width: 686px;
+    height: 81px;
+}
+
+.project {
+    height: 160px;
+    width: 1060px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.project_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px 10px 5px;
+}
+
+.project-name {
+    color: #291854;
+    ;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.project-dis {
+    width: 880px;
+    height: 96px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #55206D;
+}
+
+.project-link {
+    width: 97px;
+    height: 17px;
+}
+
+#footer {
+    background-color: black;
+    width: 1440px;
+    height: 58px;
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: white;
+}
